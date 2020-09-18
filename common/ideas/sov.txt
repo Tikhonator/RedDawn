@@ -1,0 +1,42 @@
+ideas = {
+
+	country = {
+		economic_collapse = {
+            picture = economic_collapse
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				production_speed_buildings_factor = -0.05
+				industry_repair_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.2
+				justify_war_goal_time = 0.25
+			}
+		}
+
+		ukrainian_harvest_failure = {
+            picture = ukrainian_harvest_failure
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				stability_factor = -0.06
+				communism_drift = -0.06
+				out_of_supply_factor = 0.1
+				production_lack_of_resource_penalty_factor = 0.2
+			}
+		}
+    }
+}

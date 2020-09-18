@@ -1,0 +1,113 @@
+###########################
+# Death of Leaders Events
+###########################
+
+add_namespace = leader_deaths
+
+# Konstantin Chernenko
+country_event = {
+	id = leader_deaths.1
+	title = leader_deaths.1.t
+	desc = leader_deaths.1.d
+	picture = GFX_report_event_death_of_chernenko
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = SOV
+		date = 1985.3.10
+	}
+
+	option = { 	
+		name = leader_deaths.1.a
+		ai_chance = {
+			factor = 33
+        }
+        custom_effect_tooltip = "Gorbachev secures the position of General Secretary if selected"
+        hidden_effect = {
+            kill_country_leader = yes
+            create_country_leader = {
+			    name = "Mikhail Gorbachev"
+			    desc = "POLITICS_MIKHAIL_GORBACHEV_DESC"
+			    picture = "Portrait_Soviet_Mikhail_Gorbachev.dds"
+			    expire = "2030.1.1"
+			    ideology = marxism_leninism
+			    traits = {
+				  #
+			    }
+		    }
+			news_event = {
+				id = leader_deaths_news.1
+				hours = 1
+			}
+			load_focus_tree = soviet_gorbachev_focus
+        }
+	}
+
+	option = { 
+		name = leader_deaths.1.b
+		ai_chance = {
+			factor = 33
+        }
+		custom_effect_tooltip = "Ryzhkov secures the position of General Secretary if selected"
+        hidden_effect = {
+            kill_country_leader = yes
+            create_country_leader = {
+			    name = "Nikolai Ryzhkov"
+			    desc = "POLITICS_NIKOLAI_RYZHKOV_DESC"
+			    picture = "Portrait_Soviet_Nikolai_Ryzhkov.dds"
+			    expire = "2030.1.1"
+			    ideology = marxism_leninism
+			    traits = {
+			       #
+			    }
+            }
+			news_event = {
+				id = leader_deaths_news.1
+				hours = 1
+			}
+			load_focus_tree = soviet_ryzhkov_focus
+        }
+	}
+
+    option = { 
+		name = leader_deaths.1.c
+		ai_chance = {
+			factor = 34
+        }
+        custom_effect_tooltip = "Putin and supporters of his in the Red Army will coup the Soviet Government if selected"
+        hidden_effect = {
+            set_politics = {
+	           ruling_party = authoritarianism
+	           elections_allowed = no
+            }
+            add_popularity = {
+	           ideology = authoritarianism
+	           popularity = 81
+            }
+            kill_country_leader = yes
+            create_country_leader = {
+			    name = "Vladimir Putin"
+			    desc = "POLITICS_VLADIMIR_PUTIN_DESC"
+			    picture = "Portrait_Soviet_Vladimir_Putin.dds"
+			    expire = "2030.1.1"
+			    ideology = provisional_government
+			    traits = {
+			       #
+			    }
+            }
+			set_cosmetic_tag = SOV_PUTIN_COUP
+			set_party_name = { 
+                ideology = authoritarianism
+                long_name = SOV_authoritarianism_party_putin_coup_long
+                name = SOV_authoritarianism_party_putin_coup
+            }
+			dismantle_faction = yes
+			load_focus_tree = soviet_putin_focus
+			news_event = {
+				id = leader_deaths_news.1
+				hours = 1
+			}
+        }
+	}
+}

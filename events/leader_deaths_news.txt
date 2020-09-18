@@ -1,0 +1,21 @@
+###########################
+# Death of Leaders News Events
+###########################
+
+add_namespace = leader_deaths_news
+
+# Konstantin Chernenko
+news_event = {
+	id = leader_deaths_news.1
+	title = leader_deaths_news.1.t
+	desc = leader_deaths_news.1.d
+    picture = GFX_news_event_chernenko_death
+
+    major = yes
+
+	is_triggered_only = yes
+
+    option = {
+        name = "What is happening in the USSR?!"
+    }
+}

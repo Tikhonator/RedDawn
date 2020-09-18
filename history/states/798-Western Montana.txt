@@ -1,0 +1,17 @@
+state={
+	id=798
+	name="STATE_798"
+	
+	state_category = rural
+	
+	history={
+		owner = SOZ
+		controller = SOZ
+		add_core_of = USA
+	}
+	provinces={
+		4838 12676
+	}
+	manpower=10648	
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,12 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_report_event_death_of_chernenko"
+		texturefile = "gfx/event_pictures/report_event_death_of_chernenko.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_news_event_chernenko_death"
+		texturefile = "gfx/event_pictures/news_event_chernenko_death.dds"
+	}	
+}

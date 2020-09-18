@@ -1,0 +1,223 @@
+ideas = {
+
+	country = {
+		damaged_by_nuclear_missiles = {
+            picture = damaged_by_nuclear_missiles
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				army_attack_factor = -0.2
+				army_defence_factor = 0.2
+				stability_weekly_factor = -0.04
+				production_speed_industrial_complex_factor = -0.1
+                production_speed_arms_factory_factor = -0.1
+			}
+		}
+
+		far_right_riots = {
+            picture = far_right_riots
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				stability_weekly_factor = -0.04
+				neo_fascism_drift = 0.02
+			}
+		}
+
+		strategic_air_command_crippled = {
+            picture = strategic_air_command_crippled
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				air_detection = -0.1
+				air_attack_factor = -0.06
+				air_defence_factor = -0.02
+				air_air_superiority_defence_factor = -0.1
+				air_close_air_support_defence_factor = -0.1
+			}
+		}
+
+		relocated_government = {
+            picture = relocated_government
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+		}
+    }
+
+	defense_minister = {
+		
+		caspar_weinberger = {
+			
+			picture = USA_caspar_weinberger
+			allowed = {
+				original_tag = "USA"
+			}
+			available = {
+				if = {
+					has_government = conservatism
+				}
+			}
+			
+			traits = { 
+               #
+			}
+			cost = 150
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	foreign_affairs_minister = {
+		
+		george_shultz = {
+			
+			picture = USA_george_shultz
+			allowed = {
+				original_tag = "USA"
+			}
+			available = {
+				if = {
+					has_government = conservatism
+				}
+			}
+			
+			traits = { 
+               #
+			}
+			cost = 150
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	health_minister = {
+		
+		margaret_heckler = {
+			
+			picture = USA_margaret_heckler
+			allowed = {
+				original_tag = "USA"
+			}
+			available = {
+				if = {
+					has_government = conservatism
+				}
+			}
+			
+			traits = { 
+               #
+			}
+			cost = 150
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	education_minister = {
+		
+		terrel_bell = {
+			
+			picture = USA_terrel_bell
+			allowed = {
+				original_tag = "USA"
+			}
+			available = {
+				if = {
+					has_government = conservatism
+				}
+			}
+			
+			traits = { 
+               #
+			}
+			cost = 150
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	intelligence_minister = {
+		
+		william_casey = {
+			
+			picture = USA_william_casey
+			allowed = {
+				original_tag = "USA"
+			}
+			available = {
+				if = {
+					has_government = conservatism
+				}
+			}
+			
+			traits = { 
+               #
+			}
+			cost = 150
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	justice_minister = {
+		
+		william_smith = {
+			
+			picture = USA_william_smith
+			allowed = {
+				original_tag = "USA"
+			}
+			available = {
+				if = {
+					has_government = conservatism
+				}
+			}
+			
+			traits = { 
+               #
+			}
+			cost = 150
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+}

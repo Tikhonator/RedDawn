@@ -1,0 +1,71 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_traits_strip"
+		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
+		noOfFrames = 15		
+	}
+    
+	spriteType = {
+	   name = "GFX_idea_damaged_by_nuclear_missiles"
+	   texturefile = "gfx/interface/ideas/damaged_by_nuclear_missiles.dds"
+	}
+
+	spriteType = {
+	   name = "GFX_idea_far_right_riots"
+	   texturefile = "gfx/interface/ideas/far_right_riots.dds"
+	}
+
+	spriteType = {
+	   name = "GFX_idea_strategic_air_command_crippled"
+	   texturefile = "gfx/interface/ideas/strategic_air_command_crippled.dds"
+	}
+
+	spriteType = {
+	   name = "GFX_idea_relocated_government"
+	   texturefile = "gfx/interface/ideas/relocated_government.dds"
+	}
+
+	spriteType = {
+	   name = "GFX_idea_economic_collapse"
+	   texturefile = "gfx/interface/ideas/economic_collapse.dds"
+	}
+
+	spriteType = {
+	   name = "GFX_idea_ukrainian_harvest_failure"
+	   texturefile = "gfx/interface/ideas/ukrainian_harvest_failure.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_USA_caspar_weinberger"
+		texturefile = "gfx/interface/ideas/idea_USA_caspar_weinberger.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_USA_george_shultz"
+		texturefile = "gfx/interface/ideas/idea_USA_george_shultz.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_USA_margaret_heckler"
+		texturefile = "gfx/interface/ideas/idea_USA_margaret_heckler.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_USA_terrel_bell"
+		texturefile = "gfx/interface/ideas/idea_USA_terrel_bell.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_USA_william_casey"
+		texturefile = "gfx/interface/ideas/idea_USA_william_casey.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_USA_william_smith"
+		texturefile = "gfx/interface/ideas/idea_USA_william_smith.dds"
+	}
+}
+
+
+ 
