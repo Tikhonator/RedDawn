@@ -288,7 +288,7 @@ ideologies = {
 		ai_neutral = yes # 
 	}
 
-	neo_fascism = {
+    fascism = {
 	
 		types = {
 		    
