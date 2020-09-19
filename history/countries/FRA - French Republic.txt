@@ -97,7 +97,7 @@ if = {
 set_convoys = 300
 
 set_politics = {
-	ruling_party = socialism
+	ruling_party = liberalism 
 	last_election = "1981.5.10"
 	election_frequency = 83
 	elections_allowed = yes
