@@ -1,6 +1,6 @@
-version="1.9.*"
+version="1.9.3"
 tags={
-	"Alternative History"
+    "Alternative History"
 }
 name="Red Dawn Development"
 replace_path="common/national_focus"

@@ -60,11 +60,7 @@ set_politics = {
 
 set_popularities = {
 	communism = 80
-	socialism = 12
-	liberalism = 0
-	conservatism = 0
-	islamism = 0
-	authoritarianism = 0
+	liberalism = 12
 	neo_fascism = 8
 }
 

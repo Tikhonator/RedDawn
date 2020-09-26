@@ -1,13 +1,6 @@
 ﻿capital = 219
 
-oob = "SOV_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "SOV_1936_naval_mtg"
-	else = {
-		set_naval_oob = "SOV_1936_naval_legacy"
-	}
-}
+oob = "SOV_1984"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -21,14 +14,19 @@ set_technology = {
 	tech_engineers = 1
 	tech_military_police = 1
 	tech_mountaineers = 1
+	tech_maintenance_company = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_signal_company = 1
 	motorised_infantry = 1
 	paratroopers = 1
 	gw_artillery = 1
 	interwar_antiair = 1
 	gwtank = 1
-	basic_light_tank = 1  # PLACEHOLDER
-	#basic_heavy_tank = 1  # PLACEHOLDER
-	#basic_medium_tank = 1 # PLACEHOLDER
+	basic_light_tank = 1
+	improved_light_tank = 1
+	basic_heavy_tank = 1
+	basic_medium_tank = 1
 	early_fighter = 1
 	fighter1 = 1
 	early_bomber = 1
@@ -38,6 +36,18 @@ set_technology = {
 	fleet_in_being = 1
 	fuel_silos = 1
 	fuel_refining = 1
+	mechanised_infantry = 1
+	basic_light_art = 1 
+	basic_light_spaa = 1 
+	basic_light_td = 1 
+	basic_light_tank = 1 
+	basic_heavy_tank = 1  
+	basic_medium_tank = 1 
+	basic_medium_td = 1
+	basic_medium_art = 1
+	basic_medium_spaa = 1
+	amphibious_tank = 1
+	amphibious_mechanized_infantry1 = 1 = 1
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -108,10 +118,8 @@ set_politics = {
 
 set_popularities = {
 	communism = 74
-	socialism = 11
-	liberalism = 5
+	liberalism = 16
 	conservatism = 5
-	islamism = 0
 	authoritarianism = 1
 	neo_fascism = 4
 }
