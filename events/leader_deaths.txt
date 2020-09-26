@@ -2,13 +2,13 @@
 # Death of Leaders Events
 ###########################
 
-add_namespace = leader_deaths
+add_namespace = Leader_Deaths
 
 # Konstantin Chernenko
 country_event = {
-	id = leader_deaths.1
-	title = leader_deaths.1.t
-	desc = leader_deaths.1.d
+	id = Leader_Deaths.1
+	title = Leader_Deaths.1.t
+	desc = Leader_Deaths.1.d
 	picture = GFX_report_event_death_of_chernenko
 
 	is_triggered_only = yes
