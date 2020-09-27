@@ -1,5 +1,7 @@
 ﻿capital = 64
 
+oob = "USA_1984"
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
