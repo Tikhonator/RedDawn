@@ -31,7 +31,7 @@ set_technology = {
 	gw_artillery = 1
 	interwar_antiair = 1
 	interwar_antitank = 1
-	motorised_infantry
+	motorised_infantry = 1
 
 	#industry
 	basic_machine_tools = 1

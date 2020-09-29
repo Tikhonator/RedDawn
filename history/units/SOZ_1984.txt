@@ -102,3 +102,201 @@ division_template = {
 	}
 	priority = 2	
 }
+
+units = {
+	division = {
+		name = "9th Motor Rifle Division"
+		location = 12211
+		division_template = "Motostrelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "9th Guards Motor Rifle Division"
+		location = 12155
+		division_template = "Motostrelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "13th Motor Riffle Division I"
+		location = 7255
+		division_template = "Motostrelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "13th Motor Riffle Division II"
+		location = 10271
+		division_template = "Motostrelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "14th Guards Motor Riffle Division"
+		location = 7255
+		division_template = "Motostrelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "20th Motor Riffle Division II"
+		location = 10690
+		division_template = "Motostrelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "21st Motor Riffle Division II"
+		location = 10687
+		division_template = "Motostrelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "27th Motor Riffle Division"
+		location = 4778
+		division_template = "Motostrelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "28th Motor Riffle Division"
+		location = 3781
+		division_template = "Motostrelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "29th Motor Riffle Division"
+		location = 12676
+		division_template = "Motostrelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "34th "Simpheropolskaya" Motor Riffle Division"
+		location = 4838
+		division_template = "Motostrelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "35th Motor Riffle Division"
+		location = 7820
+		division_template = "Motostrelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "40th Motor Riffle Division"
+		location = 7761
+		division_template = "Motostrelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "47th Motor Riffle Division"
+		location = 4877
+		division_template = "Motostrelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "50th Motor Riffle Division"
+		location = 1411
+		division_template = "Motostrelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "51st Motor Riffle Division"
+		location = 917
+		division_template = "Motostrelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "53rd Motor Riffle Division"
+		location = 4678
+		division_template = "Motostrelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "56th Motor Riffle Division"
+		location = 7891
+		division_template = "Motostrelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "59th Motor Riffle Division"
+		location = 3606
+		division_template = "Motostrelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "65th Motor Riffle Division"
+		location = 7315
+		division_template = "Motostrelkovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "3rd Tank Division"
+		location = 12676
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "6th Guards Tank Division"
+		location = 1690
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "12th Guards Tank Division"
+		location = 12578
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "13th Guards Tank Division"
+		location = 12211
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "14th Tank Division"
+		location = 10690
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+}
