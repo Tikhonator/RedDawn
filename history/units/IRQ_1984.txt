@@ -1,0 +1,237 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Firqat Musha"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+  		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		anti_tank = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Liwa' Mudarae"
+
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 0 y = 2 }
+   		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+  		medium_sp_artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+	}
+	support = {
+
+	}
+}
+
+division_template = {
+	name = "Firqat Mudaraea"
+
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 0 y = 2 }
+   		medium_armor = { x = 1 y = 0 }
+		medium_armor = { x = 1 y = 1 }
+		medium_armor = { x = 1 y = 2 }
+  		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Firqat Alharas Aljumhurii"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+   		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+  		medium_armor = { x = 2 y = 0 }
+  		medium_armor = { x = 2 y = 1 }
+  		medium_armor = { x = 2 y = 2 }
+		medium_sp_artillery_brigade = { x = 3 y = 0 }
+		medium_sp_anti_air_brigade = { x = 3 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Alquwwat Alkhasa"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 1 y = 0 }
+		paratrooper = { x = 1 y = 1 }
+		paratrooper = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+	}
+}
+units = {
+	division = {
+		name = "7. Firqat Musha"
+		location = 2089
+		division_template = "Firqat Musha"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "11. Firqat Musha"
+		location = 2089
+		division_template = "Firqat Musha"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}	
+	division = {
+		name = "6. Firqat Mudaraea"
+		location = 2089
+		division_template = "Firqat Mudaraea"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}	
+	division = {
+		name = "9. Firqat Mudaraea"
+		location = 2089
+		division_template = "Firqat Mudaraea"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}	
+	division = {
+		name = "10. Liwa' Mudarae"
+		location = 2089
+		division_template = "Liwa' Mudarae"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}	
+	division = {
+		name = "2. Firqat Musha"
+		location = 2089
+		division_template = "Firqat Musha"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}	
+	division = {
+		name = "4. Firqat Musha"
+		location = 2089
+		division_template = "Firqat Musha"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}	
+	division = {
+		name = "6. Firqat Musha"
+		location = 2089
+		division_template = "Firqat Musha"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}	
+	division = {
+		name = "8. Firqat Musha"
+		location = 2089
+		division_template = "Firqat Musha"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}	
+	division = {
+		name = "3. Firqat Mudaraea"
+		location = 2089
+		division_template = "Firqat Musha"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}	
+	division = {
+		name = "1. Liwa' Mudarae"
+		location = 2089
+		division_template = "Firqat Musha"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}	
+	division = {
+		name = "12. Firqat Mudaraea"
+		location = 2089
+		division_template = "Firqat Musha"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}	
+	division = {
+		name = "1. Firqat Alharas Aljumhurii"
+		location = 2089
+		division_template = "Firqat Alharas Aljumhurii"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}	
+	division = {
+		name = "5. Firqat Alharas Aljumhurii"
+		location = 2089
+		division_template = "Firqat Alharas Aljumhurii"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}	
+	division = {
+		name = "31. Alquwwat Alkhasa"
+		location = 2089
+		division_template = "Alquwwat Alkhasa"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}	
+	division = {
+		name = "33. Alquwwat Alkhasa"
+		location = 2089
+		division_template = "Alquwwat Alkhasa"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}	
+	division = {
+		name = "10. Firqat Mudaraea"
+		location = 2089
+		division_template = "Firqat Mudaraea"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}	
+	division = {
+		name = "12. Firqat Mudaraea"
+		location = 2089
+		division_template = "Firqat Musha"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}	
+	division = {
+		name = "113. Firqat Musha"
+		location = 2089
+		division_template = "Firqat Musha"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+}
