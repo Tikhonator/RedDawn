@@ -165,22 +165,6 @@ division_template = {
 
 units = {
 	division = {
-		name = "1st Infantry Division 'Big Red One'"
-		location = 7892
-		division_template = "Infantry Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "1st Armored Division"
-		location = 7892
-		division_template = "Armored Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	
-	division = {
 		name = "1st 82nd Airborne Brigade"
 		location = 7892
 		division_template = "Airborne Brigade"
@@ -499,78 +483,6 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
-
-	division = {
-		name = "26th Infantry Division"
-		location = 7892
-		division_template = "National Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "27th Infantry Division"
-		location = 7892
-		division_template = "National Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "30th Armor Brigade"
-		location = 7892
-		division_template = "Armored Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "30th Infantry Division"
-		location = 7892
-		division_template = "National Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "31st Infantry Division"
-		location = 7892
-		division_template = "National Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "32nd Infantry Division"
-		location = 7892
-		division_template = "National Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "33rd Infantry Division"
-		location = 7892
-		division_template = "National Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "37th Infantry Division"
-		location = 7892
-		division_template = "National Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	
-	division = {
-		name = "39th Infantry Division"
-		location = 7892
-		division_template = "National Guard Division"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
 	
 	division = {
 		name = "32nd Infantry Brigade"
@@ -773,7 +685,7 @@ units = {
 	}
 	
 	division = {
-		name = "14th Volunteer Infantry Brigade"
+		name = "14th Volunteer Infantry Brigade
 		location = 7892
 		division_template = "Volunteer Infantry Brigade"
 		start_experience_factor = 0.1
@@ -781,7 +693,55 @@ units = {
 	}
 
 	division = {
-		name = "15th Volunteer Infantry Brigade"
+		name = "15th Volunteer Infantry Brigade
+		location = 7892
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "16th Volunteer Infantry Brigade"
+		location = 7892
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "17th Volunteer Infantry Brigade"
+		location = 7892
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "18th Volunteer Infantry Brigade"
+		location = 7892
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "19th Volunteer Infantry Brigade"
+		location = 7892
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "20th Volunteer Infantry Brigade"
+		location = 7892
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "21st Volunteer Infantry Brigade"
 		location = 7892
 		division_template = "Volunteer Infantry Brigade"
 		start_experience_factor = 0.1

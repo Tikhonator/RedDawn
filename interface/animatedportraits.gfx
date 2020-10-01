@@ -7,15 +7,6 @@ spriteTypes = {
         looping = yes
         play_on_show = yes
     }
-	
-    frameAnimatedSpriteType = {
-        name = "GFX_Yazov"
-        texturefile = "gfx/leaders/SOZ/Portrait_Soviet_North_America_Dmitry_Yazov.dds"
-        noOfFrames = 13
-        animation_rate_fps = 12
-        looping = yes
-        play_on_show = yes
-    }
 }
 
 

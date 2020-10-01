@@ -1,7 +1,5 @@
 capital = 463
 
-oob = "SOZ_1984"
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -31,20 +29,7 @@ set_technology = {
 	synth_oil_experiments = 1
 	oil_processing = 1
 	fuel_refining = 1
-	mechanised_infantry = 1
-	basic_light_art = 1 
-	basic_light_spaa = 1 
-	basic_light_td = 1 
-	basic_light_tank = 1 
-	basic_heavy_tank = 1  
-	basic_medium_tank = 1 
-	basic_medium_td = 1
-	basic_medium_art = 1
-	basic_medium_spaa = 1
-	amphibious_tank = 1
-	amphibious_mechanized_infantry1= 1
-	paratroopers = 1
-	interwar_antitank = 1
+	
 }
 if = {
 	limit = {
@@ -125,7 +110,7 @@ add_ideas = {
 create_country_leader = {
 	name = "Dmitry Yazov"
 	desc = "POLITICS_DMITRY_YAZOV_DESC"
-	picture = "GFX_Yazov"
+	picture = "Portrait_Soviet_North_America_Dmitry_Yazov.dds"
 	expire = "2030.2.25"
 	ideology = marxism_leninism
 	traits = {

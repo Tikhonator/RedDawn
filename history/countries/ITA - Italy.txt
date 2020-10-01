@@ -173,13 +173,13 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Portrait Pertini"
-	desc = "Portrait Pertini"
-	picture = "Portrait_Italy_Pertini.tga"
-	expire = "2030.6.5"
-	ideology = liberalism_ideology
+	name = "Benito Mussolini"
+	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
+	picture = "Portrait_Italy_Benito_Mussolini.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
 	traits = {
-		#
+		
 	}
 }
 
