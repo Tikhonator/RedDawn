@@ -117,11 +117,9 @@ set_politics = {
 }
 
 set_popularities = {
-	communism = 74
-	liberalism = 16
-	conservatism = 5
-	authoritarianism = 1
-	neo_fascism = 4
+	communism = 100
+	capitalism = 0
+	neutrality = 0
 }
 
 create_faction = Comintern
@@ -149,6 +147,28 @@ create_country_leader = {
 	picture = "Portrait_Soviet_Konstantin_Chernenko.dds"
 	expire = "2030.3.10"
 	ideology = marxism_leninism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Boris Yeltsin"
+	desc = "POLITICS_BORIS_YELTSIN_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "2030.3.10"
+	ideology = capitalism_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Someguy Romanov"
+	desc = "POLITICS_SOMEGUY_ROMANOV_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_4.dds"
+	expire = "2030.3.10"
+	ideology = monarchism
 	traits = {
 		
 	}
